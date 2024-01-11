@@ -2,39 +2,66 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="surveyStyle.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
-    <title>Survey Page</title>
+    <title>Forms Review</title>
   </head>
   <body>
-    <main>
-      <h1>Welcome to the survey page!</h1>
-      <h1>Simple Survey</h1>
+     <div class = "container">
+     <nav>
+        <h1 id = name >Jonny George Bowman Lloyd</h1>
+        <ul>
+          <li><a href="#proj">About me</a></li>
+          <li><a href=./survey.html>Survey</a></li>
+          <li>Survey</li>
+          <li>Contact</li>
+        </ul>
+     </nav>
 
-  <form id="surveyForm">
-    <label for="name">Name:</label>
-    <input type="text" id="name" name="name" required>
 
-    <br>
 
-    <label for="age">Age:</label>
-    <input type="number" id="age" name="age" required>
 
-    <br>
 
-    <label>Gender:</label>
-    <label for="male"><input type="radio" id="male" name="gender" value="male"> Male</label>
-    <label for="female"><input type="radio" id="female" name="gender" value="female"> Female</label>
 
-    <br>
 
-    <label for="feedback">Feedback:</label>
-    <textarea id="feedback" name="feedback" rows="4" required></textarea>
 
-    <br>
 
-    <input type="submit" value="Submit">
-  </form>
-    </main>
+
+
+
+
+
+     <section2>
+      <div id = proj>
+        <h1>Hobbies</h1>
+        <ul>
+          <li onclick="changeDropDownDj()" >Djing</li>
+          <div class = "dropdown" id="dj">
+            <img src="images/dj.jpg" alt="dj">
+            <p>Description goes here</p>
+          </div>
+          <li onclick="changeDropDownRun()" >Running</li>
+          <div class = "dropdown" id="run">
+            <img src="images/run.png" alt="running">
+            <p>Description goes here</p>
+          </div>
+          <li onclick="changeDropDownCyc()" >Cycling</li>
+          <div class = "dropdown" id="cyc">
+            <img src="images/cyc.jpg" alt="cycling">
+            <p>Description goes here</p>
+          </div>
+        </ul>
+        <script src="script.js"></script>
+      </div>
+    </section2>
+    <footer>
+      <h1>Skills:</h1>
+      <div id = icons>
+        <img src="images/java.png" alt="java">
+        <img src="images/excel.png" alt="excel">
+        <img src="images/rekord.jpg" alt="rekord" id="rekord">
+      </div>
+    </footer>
+    </div>
   </body>
 </html>
