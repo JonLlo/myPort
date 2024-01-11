@@ -9,14 +9,84 @@
   <body>
      <div class = "container">
      <nav>
-        <h1 id = name >Jonny George Bowman Lloyd</h1>
+        <h3 id = name >FPL</h3>
         <ul>
-          <li><a href="#proj">About me</a></li>
+          <li><a href=./index.html>About me</a></li>
           <li><a href=./survey.html>Survey</a></li>
           <li>Survey</li>
           <li>Contact</li>
         </ul>
      </nav>
+     <section>
+      <h1>Welcome to the survey page!</h1>
+      <h1>FPL survey</h1>
+      <p>wys about FPL this week you cheeky bastards<p>
+  <form id="surveyForm">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    <br>
+    <br>
+
+    <label for="gender">Son Replacement:</label>
+    <select id="gender" name="gender" required>
+      <option value="" disabled selected>Select Player</option>
+      <option value="Saka">Bukayo Saka</option>
+       <select id="playerSelect" name="player" required>
+    <option value="" disabled selected>Select Player</option>
+  </select>
+
+  <label for="gender">Son Replacement:</label>
+  <select id="gender" name="gender" required>
+    <option value="" disabled selected>Select Player</option>
+    <option value="Saka">Bukayo Saka</option>
+     <select id="playerSelect" name="player" required>
+  <option value="" disabled selected>Select Player</option>
+</select>
+ 
+
+    <br>
+    <br>
+
+    <label for="age">Age: </label>
+    <input type="number" id="age" name="age" required>
+
+    <br>
+    <br>
+
+    <label>Gender:</label>
+    <label for="male"><input type="radio" id="male" name="gender" value="male"> Male</label>
+    <label for="female"><input type="radio" id="female" name="gender" value="female"> Female</label>
+
+    <br>
+    <br>
+
+    <label for="feedback">Feedback:</label>
+    <textarea id="feedback" name="feedback" rows="4" required></textarea>
+
+    <br>
+    <br>
+
+    <input type="submit" value="Submit" onclick="newFunction()">
+  </form>
+  <script src="script.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     </section>
 
 
 

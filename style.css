@@ -1,4 +1,4 @@
-
+/*HOME PAGE*/
 
 .container {
   background-color: grey;
@@ -203,4 +203,13 @@ footer h1{
 #icons #rekord{
   margin-left: 24px;
   
+}
+
+/*SURVEY PAGE*/
+
+section {
+  text-align: center;
+  padding-bottom: 20px;
+  border: 2px black solid;
+  margin-top: -2px;
 }
