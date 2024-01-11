@@ -2,6 +2,8 @@
 
 .container {
   background-color: grey;
+
+
   max-width: 1000px;
   margin: 0 auto;
   
@@ -48,7 +50,7 @@ nav #name {
 
 
 #info h1 {
-  text-align: center;
+  
 }
 
 main {
@@ -79,3 +81,126 @@ main img {
 
 }
 
+/*proj section*/
+
+#proj {
+  border: 2px solid black;
+  margin-top:-2px; 
+}
+
+#proj h1{
+
+  margin-left: 30px;
+  font-size: 35px
+  
+}
+
+#proj ul {
+
+  padding-bottom: 20px;
+  list-style-type: none;
+}
+#proj ul li {
+  transform: translateX(-20px);
+  cursor: pointer;
+
+
+  
+ 
+}
+
+#proj ul li::before {
+  content: "\2192"; /* Unicode arrow right character */
+  margin-right: 0.5em; /* Adjust spacing between arrow and text */
+  color: black /* Optional: Set color of the arrow */
+  font-weight: bold; /* Optional: Adjust font weight */
+}
+
+/*dj*/
+
+#dj {
+  display: none;
+  Margin-top: 30px;
+
+}
+
+#dj img {
+  height: 200px;
+   width: auto;
+}
+
+#dj p {
+  font-weight: bold;
+  text-align: left;
+  margin-left: 20px;
+}
+
+/*run*/
+
+#run {
+  display: none;
+  Margin-top: 30px;
+
+}
+
+#run img {
+  height: 200px;
+   width: auto;
+}
+
+#run p {
+  font-weight: bold;
+  text-align: left;
+  margin-left: 20px;
+}
+
+/*cyc*/
+
+#cyc{
+  display: none;
+  Margin-top: 30px;
+
+}
+
+#cyc img {
+  height: 200px;
+   width: auto;
+}
+
+#cyc p {
+  font-weight: bold;
+  text-align: left;
+  margin-left: 20px;
+}
+
+/*footer*/
+
+footer {
+  border: 2px solid black;
+  margin-top:-2px; 
+}
+
+footer h1{
+
+  margin-left: 30px;
+  font-size: 35px
+  
+}
+
+
+#icons {
+  display:flex;
+  mix-blend-mode: darken;
+  padding-bottom: 20px;
+  
+  
+
+}
+#icons img {
+  height: 50px;
+}
+
+#icons #rekord{
+  margin-left: 24px;
+  
+}

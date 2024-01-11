@@ -11,7 +11,7 @@
      <nav>
         <h1 id = name >Jonny George Bowman Lloyd</h1>
         <ul>
-          <li>About Me</li>
+          <li><a href="#proj">About me</a></li>
           <li>Projects</li>
           <li>Skills</li>
           <li>Contact</li>
@@ -19,7 +19,7 @@
      </nav>
      <main>
       <div id = info>
-        <h1>Jonny Info</h1>
+        <h1>Information</h1>
         <p>Hi! I'm Jonny, Countess of Lovelace and am an English mathematician and writer, chiefly known for my work on Charles Babbage's proposed mechanical general-purpose computer, the Analytical Engine.</p>
         <p>I am one of the first to recognize that machines have applications beyond pure calculation, and to have published the first algorithm intended to be carried out by such a machine.
         </p>
@@ -32,15 +32,35 @@
      </main>
      <section2>
       <div id = proj>
-        <h1>Projects</h1>
+        <h1>Hobbies</h1>
         <ul>
-          <li>About Me</li>
-          <li>Projects</li>
-          <li>Skills</li>
-          <li>Contact</li>
+          <li onclick="changeDropDownDj()" >Djing</li>
+          <div class = "dropdown" id="dj">
+            <img src="images/dj.jpg" alt="dj">
+            <p>Description goes here</p>
+          </div>
+          <li onclick="changeDropDownRun()" >Running</li>
+          <div class = "dropdown" id="run">
+            <img src="images/run.png" alt="running">
+            <p>Description goes here</p>
+          </div>
+          <li onclick="changeDropDownCyc()" >Cycling</li>
+          <div class = "dropdown" id="cyc">
+            <img src="images/cyc.jpg" alt="cycling">
+            <p>Description goes here</p>
+          </div>
         </ul>
+        <script src="script.js"></script>
       </div>
     </section2>
+    <footer>
+      <h1>Skills:</h1>
+      <div id = icons>
+        <img src="images/java.png" alt="java">
+        <img src="images/excel.png" alt="excel">
+        <img src="images/rekord.jpg" alt="rekord" id="rekord">
+      </div>
+    </footer>
     </div>
   </body>
 </html>
